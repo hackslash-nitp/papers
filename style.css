@@ -1,0 +1,126 @@
+body{
+    background: #E5E5E5;
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+}
+
+img{
+    z-index: -1;
+}
+button{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    outline: none;
+    border: none;
+}
+h1 {
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+h3{
+    margin-top: 0px;
+    text-align: right;
+    font-weight: 300;
+}
+input{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    outline: none;
+    width: 85%;
+    height: 95%;
+    border-style: none;
+    padding: 0px 20px;
+    margin-left: -15%;
+}
+button{
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: rgb(72, 57, 102);
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25%;
+}
+.heading {
+    font-family: Merriweather Sans;
+    font-style: normal;
+}
+strong{
+    color: #56CCF2;
+}
+.gp10{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left:55%;
+    top: 5%;
+}
+.gp11{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 40%;
+    right: 10%;
+}
+.gp12{
+    position: absolute;
+    width: 210px;
+    height: 165px;
+    right: 0%;
+    top: 70%;
+}
+.gp13{
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    left: 60%;
+    top: 70%;
+}
+.gp14{
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    left: 50%;
+    bottom:0% ;
+
+}
+.gp15{
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 40%;
+    bottom: 10%;
+}
+.gp16{
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    left: 15%;
+    bottom: 12%;
+}
+.gp17{
+    position: absolute;
+    width: 38px;
+    height: 18px%;
+    left: 8%;
+    top: 25%;
+}
+.gp18{
+    position: absolute;
+    width: 240px;
+    height: 165px;
+    left: -4%;
+    top: 70%;
+}
+.gp19{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 75%;
+    top: 25%;
+}
