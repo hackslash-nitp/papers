@@ -10,6 +10,7 @@ img{
 }
 button{
     font-family: 'Merriweather Sans', sans-serif;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     font-weight: 300;
     outline: none;
     border: none;
@@ -20,7 +21,6 @@ h1 {
 }
 h3{
     margin-top: 0px;
-    text-align: right;
     font-weight: 300;
 }
 input{
@@ -28,23 +28,24 @@ input{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     outline: none;
-    width: 85%;
-    height: 95%;
     border-style: none;
     padding: 0px 20px;
-    margin-left: -15%;
+    margin-right: 10px;
 }
 button{
     font-family: Merriweather Sans;
     font-style: normal;
     font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     font-size: 15px;
     line-height: 25px;
     background-color: rgb(72, 57, 102);
     color: #FFFFFF;
     border-radius: 10px;
     padding: 10px;
-    width: 25%;
+}
+button:hover{
+    background-color: rgba(72, 57, 102,0.8);
 }
 .heading {
     font-family: Merriweather Sans;
@@ -83,7 +84,7 @@ strong{
 }
 .gp14{
     position: absolute;
-    width: 150px;
+    width: 190px;
     height: 120px;
     left: 50%;
     bottom:0% ;
@@ -124,3 +125,88 @@ strong{
     left: 75%;
     top: 25%;
 }
+.ads{
+    width: 45%;
+    height: 35%;
+    background-color:#C4C4C4;
+    max-width: max-content;
+    position: absolute;
+    left: 45%;
+    top: 8%;
+    margin-left: 5%;
+}
+.ads2{
+    top: 47%;
+    /* margin-bottom: 5%; */
+}
+.pic{
+    width: 35%;
+    height: 32%;
+    margin: 0px 0px;;
+}
+.links{
+    width: 42%;
+    height: max-content;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+a > span {
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size:20px;
+    line-height: 45px;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 7%;
+}
+.links>a {
+    width: 100%;
+    display: block;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+i{
+    font-size: 24px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+.pagination {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  } 
+  
+   footer>div>a {
+    width: 20px;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    background-color: white;
+  }
+  
+  .pagination a.active {
+    background-color: #56CCF2;
+    color: white;
+    border: 1px solid #56CCF2;
+  }
+  
+  .pagination a:hover {background-color: #ddd;}
+  
+  .pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
